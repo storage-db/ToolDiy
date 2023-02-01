@@ -42,5 +42,6 @@ plugins:
         en:
           简介 : Introduction
           序言 : Foreword
+          TeXmacs : TeXmacs
   - search:
       lang: ja
