@@ -1,7 +1,8 @@
 # GNU TeXmacs
-Website: [https://www.texmacs.org/tmweb/home/welcome.en.html]()
 
-Try GNU TeXmacs if you are being tortured by $\LaTeX$! GNU TeXmacs is a WYSIWYG open source editor for scientific documents (papers, notes, etc.). Highly recommended if you write lots of maths!
+Website: <https://www.texmacs.org/tmweb/home/welcome.en.html>
+
+Try GNU TeXmacs if you are being tortured by *LaTeX* GNU TeXmacs is a WYSIWYG open source editor for scientific documents (papers, notes, etc.). Highly recommended if you write lots of maths!
 
 Features:
 
