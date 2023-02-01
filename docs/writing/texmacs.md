@@ -1,8 +1,10 @@
 # GNU TeXmacs
-官网：https://www.texmacs.org/tmweb/home/welcome.en.html
+官网：[https://www.texmacs.org/tmweb/home/welcome.en.html]()
 
-被$\LaTeX$折磨的话，不妨试试GNU TeXmacs！TeXmacs是一款所见即所得的科学文档（论文，笔记等）开源编辑器。
+被 $\LaTeX$ 折磨的话，不妨试试 GNU TeXmacs！TeXmacs 是一款所见即所得的科学文档（论文，笔记等）开源编辑器。
 如果写很多的数学公式的话可以试试，非常好用！
+
+Features:
 
 - 完全可视化的表格，公式编辑环境。
 - 非常人性化的按键设计。最好用的一个功能是，在编辑数学公式时，你按任意一个字符，然后就可以用多次 TAB 键相继选择相似的字符。比如，按`a`再按tab就可以得到$\alpha$等看着像a的字符。

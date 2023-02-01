@@ -16,4 +16,12 @@
          <xhtml:link rel="alternate" hreflang="en" href="https://cargo-youth.github.io/ToolDiy/en/get_started/get_started/"/>
          
     </url>
+    <url>
+         <loc>https://cargo-youth.github.io/ToolDiy/writing/texmacs/</loc>
+         <lastmod>2023-02-01</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://cargo-youth.github.io/ToolDiy/zh/writing/texmacs/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="https://cargo-youth.github.io/ToolDiy/en/writing/texmacs/"/>
+         
+    </url>
 </urlset>

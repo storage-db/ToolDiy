@@ -24,6 +24,7 @@ theme:
 nav:
   - 简介 : "index.md"
   - 序言 : "get_started/get_started.md"
+  - TeXmacs : "writing/texmacs.md"
 
 # 插件
 plugins:
