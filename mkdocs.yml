@@ -1,4 +1,8 @@
 site_name: ToolDiy
+site_url: https://cargo-youth.github.io/ToolDiy/
+
+repo_name: ToolDiy
+repo_url: https://github.com/cargo-youth/ToolDiy/
 
 # 主题设置
 theme:
@@ -18,6 +22,7 @@ theme:
 
 # 导航
 nav:
+  - 简介 : "index.md"
   - 序言 : "get_started/get_started.md"
 
 # 插件
@@ -34,15 +39,7 @@ plugins:
           build: true
       nav_translations:
         en:
+          简介 : Introduction
           序言 : Foreword
   - search:
-
-# 翻译设置
-extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: 简体中文
-      link: /zh/
-      lang: zh
+      lang: ja

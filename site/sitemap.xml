@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>Noneget_started/get_started/</loc>
+         <loc>https://cargo-youth.github.io/ToolDiy/</loc>
          <lastmod>2023-02-01</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/get_started/get_started/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/get_started/get_started/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://cargo-youth.github.io/ToolDiy/zh/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="https://cargo-youth.github.io/ToolDiy/en/"/>
+         
+    </url>
+    <url>
+         <loc>https://cargo-youth.github.io/ToolDiy/get_started/get_started/</loc>
+         <lastmod>2023-02-01</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://cargo-youth.github.io/ToolDiy/zh/get_started/get_started/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="https://cargo-youth.github.io/ToolDiy/en/get_started/get_started/"/>
          
     </url>
 </urlset>
