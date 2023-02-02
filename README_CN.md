@@ -14,7 +14,7 @@
 
 如果你有已经写好的文章想要添加到这里，你可以通过下列方式：
 
-1. fork 本仓库在本地调试成功后提出 PR 以便进行合并。
+1. fork 本仓库，在 mkdocs.yml 中添加 nav，并在 docs 下添加内容，提出 PR 以便进行合并。
 2. 联系 [SakurajimaMaii](https://github.com/SakurajimaMaii) ，将文档的**中文**和**英文**版发送至他的邮箱 <a href="mailto:guihy2019@gmail.com">Email</a> 。
 
 文档采用 [MKDocs](https://www.mkdocs.org/) 来编辑及部署，采用 [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) 主题。
