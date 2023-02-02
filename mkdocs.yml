@@ -28,13 +28,13 @@ theme:
 # 导航
 nav:
   - 简介 : "index.md"
-  - 编辑器 : 
-    - TeXmacs : "editor/texmacs.md"
-    - Mathpix : "editor/mathpix.md"
+  - 软件 : 
+    - TeXmacs : "software/texmacs.md"
+    - Mathpix : "software/mathpix.md"
+    - Gdbdashboard : "software/gdbdashboard.md"
   - 插件 :
     - Android Studio : "plugins/android.md"
     - Browser : "plugins/browser.md"
-    - Gdbdashboard : "plugins/gdbdashboard.md"
   - 平台 :
     - GitBucket : "platform/GitBucket.md"
   - 规范 : "specification/specification.md"
@@ -57,7 +57,7 @@ plugins:
       nav_translations:
         en:
           简介 : Introduction
-          编辑器 : Editor
+          软件 : Software
           插件 : Plugins
           平台 : Platform
           规范 : Specification
