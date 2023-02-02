@@ -33,6 +33,7 @@ nav:
     - Mathpix : "editor/mathpix.md"
   - 插件 :
     - Android Studio : "plugins/android.md"
+    - Browser : "plugins/browser.md"
   - 规范 : "specification/specification.md"
 
 # 版权
