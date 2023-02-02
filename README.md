@@ -1,12 +1,14 @@
 # ToolDiy
 
+![Shields IO](https://img.shields.io/badge/ToolDiy-Let's%20build%20the%20world%20with%20tools-%23eb4d4b)
+
 English | [简体中文](https://github.com/cargo-youth/ToolDiy/blob/main/README_CN.md)
 
 ## 🤔 Preface
 
 Let's build the world with tools.
 
-If this project benefits you, you can add it to your project ![Shields IO](https://img.shields.io/badge/ToolDiy-Let's%20build%20the%20world%20with%20tools-%23eb4d4b) .
+If this project benefits you, you can add it to your project .
 
 ## ⛏ Contribute
 
