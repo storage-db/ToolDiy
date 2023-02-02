@@ -33,6 +33,8 @@ nav:
     - Mathpix : "editor/mathpix.md"
   - 插件 :
     - Android Studio : "plugins/android.md"
+  - 平台 :
+    - GitBucket : "platform/GitBucket.md"
   - 规范 : "specification/specification.md"
 
 # 版权
@@ -55,6 +57,7 @@ plugins:
           简介 : Introduction
           编辑器 : Editor
           插件 : Plugins
+          平台 : Platform
           规范 : Specification
   - search:
       lang: ja
