@@ -29,7 +29,10 @@ theme:
 nav:
   - 简介 : "index.md"
   - 编辑器 : 
-    - TeXmacs : "texmacs/texmacs.md"
+    - TeXmacs : "editor/texmacs.md"
+  - 插件 :
+    - Android Studio : "plugins/android.md"
+  - 规范 : "specification/specification.md"
 
 # 版权
 copyright: This website follows CC BY-SA 4.0 
@@ -50,6 +53,8 @@ plugins:
         en:
           简介 : Introduction
           编辑器 : Editor
+          插件 : Plugins
+          规范 : Specification
   - search:
       lang: ja
 
