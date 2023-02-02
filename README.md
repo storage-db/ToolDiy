@@ -1,14 +1,13 @@
 # ToolDiy
 
-![Shields IO](https://img.shields.io/badge/ToolDiy-Let's%20build%20the%20world%20with%20tools-%23eb4d4b)
-
 English | [简体中文](https://github.com/cargo-youth/ToolDiy/blob/main/README_CN.md)
 
 ## 🤔 Preface
 
 Let's build the world with tools.
 
-If this project benefits you, you can add it to your project .
+If this project benefits you, you can add following badges to your project.
+![Shields IO](https://img.shields.io/badge/ToolDiy-Let's%20build%20the%20world%20with%20tools-%23eb4d4b)
 
 ## ⛏ Contribute
 
@@ -31,3 +30,7 @@ Click the link to join the group chat [tooldiy](https://jq.qq.com/?_wv=1027&k=QC
 <a href="https://github.com/cargo-youth/ToolDiy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cargo-youth/ToolDiy" />
 </a>
+
+## 📑 许可证
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

@@ -31,6 +31,9 @@ nav:
   - 编辑器 : 
     - TeXmacs : "texmacs/texmacs.md"
 
+# 版权
+copyright: This website follows CC BY-SA 4.0 
+
 # 插件
 plugins:
   - i18n:
