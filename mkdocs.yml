@@ -30,6 +30,7 @@ nav:
   - 简介 : "index.md"
   - 编辑器 : 
     - TeXmacs : "editor/texmacs.md"
+    - Mathpix : "editor/mathpix.md"
   - 插件 :
     - Android Studio : "plugins/android.md"
   - 规范 : "specification/specification.md"
