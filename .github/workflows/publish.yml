@@ -34,6 +34,7 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material
+      - run: pip install mkdocs-static-i18n
       - run: mkdocs gh-deploy --force
           
 permissions:
