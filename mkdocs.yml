@@ -34,7 +34,7 @@ nav:
   - 插件 :
     - Android Studio : "plugins/android.md"
     - Browser : "plugins/browser.md"
-    - Gdbdashboard ："plugins/gdbdashboard.md"
+    - Gdbdashboard : "plugins/gdbdashboard.md"
   - 平台 :
     - GitBucket : "platform/GitBucket.md"
   - 规范 : "specification/specification.md"
