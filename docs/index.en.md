@@ -1,5 +1,3 @@
-# ToolDiy
+# Why have a book?
 
-![Shields IO](https://img.shields.io/badge/ToolDiy-Let's%20build%20the%20world%20with%20tools-%23eb4d4b)
-
-Let's build the world with tools
+We have been taught the difference between humans and other animals from middle school textbooks: humans can make and use tools for productive labor, while animals do not. Yes, many tools have been born to help us engage in productive labor, but it is frustrating that with the continuous development and change of tools, it is difficult for us to easily get started with a tool. In most cases, we are based on our own functions After opening the search engine, we need to keep trying a bunch of links, some of which will be jerky English documents, and some will be a few sentences of instructions, and our usage costs will increase sharply. Now we want to collect and refine god-level tools from all walks of life in an open source community environment (the most suitable ones are god-level tools). We hope to reduce the cost of using tools and try our best to recommend useful tools from the perspective of beginners. These tools are not limited to any and special subjects as long as they can bring some people a better experience or inspire some people to develop better ones. Tools (use evaluation is the best user appeal), improve production efficiency, then the project will be considered a success. Ok so now let's start our tooldiy.

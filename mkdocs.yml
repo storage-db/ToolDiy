@@ -20,12 +20,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: 亮色模式
+  features:
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-tabs
+    - navigation.tabs 
+    - navigation.tabs.sticky
 
 # 导航
 nav:
   - 简介 : "index.md"
-  - 序言 : "get_started/get_started.md"
-  - TeXmacs : "texmacs/texmacs.md"
+  - 编辑器 : 
+    - TeXmacs : "texmacs/texmacs.md"
 
 # 插件
 plugins:
@@ -42,8 +46,7 @@ plugins:
       nav_translations:
         en:
           简介 : Introduction
-          序言 : Foreword
-          TeXmacs : TeXmacs
+          编辑器 : Editor
   - search:
       lang: ja
 
