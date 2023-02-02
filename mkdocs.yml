@@ -8,6 +8,7 @@ repo_url: https://github.com/cargo-youth/ToolDiy/
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
