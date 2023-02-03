@@ -37,12 +37,14 @@ JSON as a lightweight data interchange format. It is often used in development, 
 ![Translation](https://yiiguxing.github.io/TranslationPlugin/img/translation_plugin.png)
 
 - Multiple Translation Engines
-  - Microsoft Translator
-  - Google Translate
-  - DeepL Translator
-  - Youdao Translate
-  - Baidu Translate
-  - Alibaba Translate
+
+    * Microsoft Translator
+    * Google Translate
+    * DeepL Translator
+    * Youdao Translate
+    * Baidu Translate
+    * Alibaba Translate
+
 - Multilingual translation
 - Document translation
 - Text-to-speech

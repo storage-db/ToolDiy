@@ -37,12 +37,14 @@ JSON作为轻量级资料交换格式。在开发中经常被使用，其中一�
 ![Translation](https://yiiguxing.github.io/TranslationPlugin/img/translation_plugin.png)
 
 - 多翻译引擎
-  - 谷歌翻译
-  - 微软翻译
-  - 有道翻译
-  - 百度翻译
-  - 阿里翻译
-  - DeepL 翻译
+  
+    * 谷歌翻译
+    * 微软翻译
+    * 有道翻译
+    * 百度翻译
+    * 阿里翻译
+    * DeepL 翻译
+
 - 多语言互译
 - 文档翻译
 - 语音朗读
