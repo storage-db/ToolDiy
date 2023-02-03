@@ -14,13 +14,15 @@
 
 如果你有已经写好的文章想要添加到这里，你可以通过下列方式：
 
-1. fork 本仓库，在 mkdocs.yml 中添加 nav，并在 docs 下添加内容，提出 PR 以便进行合并。
+1. fork 本仓库，在 docs 文件夹下选择对应分类创建**中文**与**英文**版Markdown文档（英文版文件名以`.en.md`结尾），在 mkdocs.yml 中的`nav`一栏添加条目，最后提出 PR 以便进行合并。
 2. 联系 [SakurajimaMaii](https://github.com/SakurajimaMaii) ，将文档的**中文**和**英文**版发送至他的邮箱 <a href="mailto:guihy2019@gmail.com">Email</a> 。
 
-### 注意事项
+如果你不知道从何处下笔，可以首先参考[写作模板](https://cargo-youth.github.io/ToolDiy/specification/template/)。
 
-1. 对于上传到本网站的内容应该符合[规范](https://cargo-youth.github.io/ToolDiy/specification/specification/)
-2. 如果你不熟悉PR，你可以参考[3分钟学会, 如何PR(Pull Request)代码到 github](https://github.com/any86/Notes/issues/22)
+!!! Note
+
+      1. **所有上传到本网站的内容均应该符合[规范](https://cargo-youth.github.io/ToolDiy/specification/specification/)。**
+      2. 如果你不熟悉PR，你可以参考[3分钟学会, 如何PR(Pull Request)代码到 Github](https://github.com/any86/Notes/issues/22)。
 
 ## 联系我们
 

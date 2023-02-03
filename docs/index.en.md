@@ -14,13 +14,15 @@ The original intention of this project is to provide a warehouse and wiki for ma
 
 If you have already written articles that you would like to add here, you can do so in the following ways:
 
-1. Fork this repository, add nav to mkdocs.yml, add content under docs, and propose a PR for merging.
+1. Fork this repository, , and propose a PR for merging.
 2. Contact [SakurajimaMaii](https://github.com/SakurajimaMaii) and send the **Chinese** and **English** versions of the document to his email <a href="mailto:guihy2019@gmail.com ">Email</a>.
 
-### Precautions
+If you wonder where to start, check the [writing template](https://cargo-youth.github.io/ToolDiy/specification/template/) is a good idea.
 
-1. The content uploaded to this website should conform to [Specification](https://cargo-youth.github.io/ToolDiy/specification/specification/)
-2. If you are not familiar with PR, you can refer to [3 minutes to learn, how to PR (Pull Request) code to github](https://github.com/any86/Notes/issues/22)
+!!! Note
+
+    1. **All content uploaded to this website should strictly conform to [Specification](https://cargo-youth.github.io/ToolDiy/specification/specification/).**
+    2. If you are not familiar with PR, you can refer to [3 minutes to learn, how to PR (Pull Request) code to Github](https://github.com/any86/Notes/issues/22)
 
 ## Contact us
 
