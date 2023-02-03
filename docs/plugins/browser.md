@@ -19,3 +19,9 @@ https://simpread.pro/
 https://www.zotero.org/download/connectors
 
 从网页上直接保存论文至 Zotero，支持选择保存分类。
+
+## Global Speed
+
+https://github.com/polywock/globalSpeed
+
+调节网页视频播放速度，使用简单。
