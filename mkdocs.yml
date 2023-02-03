@@ -31,8 +31,12 @@ theme:
 
 
 # 导航
+## 请依照下面的格式填写
 nav:
-  - 简介 : "index.md"
+  - 简介 : 
+    - 前言: "index.md"
+    - 规范: "specification/specification.md"
+    - 写作模板: "specification/template.md"
   - 软件 : 
     - TeXmacs : "software/texmacs.md"
     - Mathpix : "software/mathpix.md"
@@ -44,9 +48,6 @@ nav:
     - GitBucket : "platform/GitBucket.md"
     - Excalidraw : "platform/excalidraw.md"
     - Overleaf : "platform/overleaf.md"
-  - 规范 : 
-    - Specification : "specification/specification.md"
-    - Template : "specification/template.md"
 
 # 版权
 copyright: This website follows CC BY-SA 4.0 
@@ -64,12 +65,16 @@ plugins:
           name: English
           build: true
       nav_translations:
+        zh:
+          How to Contribute : 如何贡献
         en:
           简介 : Introduction
+          前言 : Preface
+          规范 : Specification
+          写作模板 : Writing Template
           软件 : Software
           插件 : Plugins
           平台 : Platform
-          规范 : Specification
   - search:
       lang: ja
 
@@ -77,6 +82,10 @@ plugins:
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
 
 extra_javascript:
   - javascripts/mathjax.js
