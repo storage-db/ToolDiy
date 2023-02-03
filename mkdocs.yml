@@ -36,6 +36,7 @@ nav:
     - Browser : "plugins/browser.md"
   - 平台 :
     - GitBucket : "platform/GitBucket.md"
+    - Excalidraw : "platform/excalidraw.md"
   - 规范 : "specification/specification.md"
 
 # 版权
