@@ -26,6 +26,9 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-tabs
     - navigation.tabs 
     - navigation.tabs.sticky
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit#code-actions
+    - content.action.edit
+
 
 # 导航
 nav:
