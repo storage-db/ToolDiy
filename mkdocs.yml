@@ -1,10 +1,10 @@
 site_name: ToolDiy
-site_url: https://tooldiy.ry.rs/
+site_url: https://github.com/cargo-youth/ToolDiy/
 
 repo_name: ToolDiy
-repo_url: https://tooldiy.ry.rs/
+repo_url: https://github.com/cargo-youth/ToolDiy/
 
-edit_uri: https://tooldiy.ry.rs/
+edit_uri: https://github.com/cargo-youth/ToolDiy/edit/main/docs/
 
 # 主题设置
 theme:
