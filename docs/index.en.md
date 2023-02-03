@@ -1,14 +1,10 @@
 # Preface
 
-## Why ToolDiy
+## The original intention of ToolDiy
 
-We have learned the difference between humans and other animals from middle school textbooks: humans make and use tools for productive labor, while animals do not. Many tools have been born in the process of human beings engaged in productive labor. But what is frustrating is that along with the update of the tool comes the high cost of learning, mainly because of **not understanding the features of the tool, obscure English documents and time-consuming trial costs** . That's how we came up with the idea of creating **ToolDiy**. We create a community dedicated to collecting and refining god-level tools from all walks of life (the most suitable for you are god-level tools), so as to reduce the cost of using tools. For example:
-
-- TeXmacs is a WYSIWYG open source editor for scientific documents (papers, notes, etc.).
-- MarkText is an open source Markdown editor.
-- Translation is a translation plug-in for JetBrain IDE, which greatly facilitates the development of developers with poor English foundation
-
-These tools are not limited to any discipline or aspect, nor are they limited to any one programming language**. After understanding these, let's start our ToolDiy.
+In the long river of time, we found that repetitive and tedious work brings only time and energy consumption to everyone.Indeed,in our continuous thinking and progress, excellent tools have appeared before our eyes.But what follows is that the rapid development of the types and quantities of tools makes it difficult for us to quickly and easily get started with a tool according to specific needs. On the contrary, "Baidu" and "Google" have become our commonplace.
+Keep trying in link after link and answer. Some are jerky English documents, some are a few words, which undoubtedly increases our cost of use. So the original intention of Tooldiy is to solve this problem.We want to use the environment of the open source community to continuously collect and refine tools from all walks of life (after all, the one that suits you is the best). Tooldiy will recommend and analyze various tools from an objective and user perspective, not just limited to a fixed direction. As long as it can bring you help and a better experience, this is the meaning of Tooldiy's existence.
+Now, let's use it together!
 
 ## Contribute
 
