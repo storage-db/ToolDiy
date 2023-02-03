@@ -3,7 +3,9 @@
 ## The original intention of ToolDiy
 
 In the long river of time, we found that repetitive and tedious work brings only time and energy consumption to everyone.Indeed,in our continuous thinking and progress, excellent tools have appeared before our eyes.But what follows is that the rapid development of the types and quantities of tools makes it difficult for us to quickly and easily get started with a tool according to specific needs. On the contrary, "Baidu" and "Google" have become our commonplace.
+
 Keep trying in link after link and answer. Some are jerky English documents, some are a few words, which undoubtedly increases our cost of use. So the original intention of Tooldiy is to solve this problem.We want to use the environment of the open source community to continuously collect and refine tools from all walks of life (after all, the one that suits you is the best). Tooldiy will recommend and analyze various tools from an objective and user perspective, not just limited to a fixed direction. As long as it can bring you help and a better experience, this is the meaning of Tooldiy's existence.
+
 Now, let's use it together!
 
 ## Contribute
