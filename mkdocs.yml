@@ -39,7 +39,9 @@ nav:
     - GitBucket : "platform/GitBucket.md"
     - Excalidraw : "platform/excalidraw.md"
     - Overleaf : "platform/overleaf.md"
-  - 规范 : "specification/specification.md"
+  - 规范 : 
+    - Specification : "specification/specification.md"
+    - Template : "specification/template.md"
 
 # 版权
 copyright: This website follows CC BY-SA 4.0 
