@@ -45,6 +45,7 @@ nav:
   - 软件 : 
     - TeXmacs : "software/texmacs.md"
     - Mathpix : "software/mathpix.md"
+    - nano : "software/nano.md"
     - Gdbdashboard : "software/gdbdashboard.md"
   - 插件 :
     - Android Studio : "plugins/android.md"
