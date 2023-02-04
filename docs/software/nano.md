@@ -1,6 +1,6 @@
 # GNU nano
 
-官网地址: https://www.nano-editor.org/
+官网地址: [https://www.nano-editor.org/](https://www.nano-editor.org/)
 
 gnu nano 是一个简单易上手的命令行编辑器，部分linux发行版的默认编辑器就是nano，同时你也可以在windows中安装它
 
