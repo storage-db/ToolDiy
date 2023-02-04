@@ -14,7 +14,7 @@ The original intention of this project is to provide a warehouse and wiki for ma
 
 If you have already written articles that you would like to add here, you can do so in the following ways:
 
-1. Fork this repository, , and propose a PR for merging.
+1. Fork this repository, create an Markdown document in the docs folder under the corresponding category, add an item in the `nav` column of mkdocs.yml, and finally submit a PR to merge.
 2. Contact [SakurajimaMaii](https://github.com/SakurajimaMaii) and send the **Chinese** and **English** versions of the document to his email <a href="mailto:guihy2019@gmail.com ">Email</a>.
 
 If you wonder where to start, check the [writing template](https://cargo-youth.github.io/ToolDiy/specification/template/) is a good idea.
