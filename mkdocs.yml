@@ -96,12 +96,12 @@ markdown_extensions:
       generic: true
   - admonition
   - pymdownx.details
+  - pymdownx.tilde
   - pymdownx.superfences
   - footnotes
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  - del_ins
 
 extra_javascript:
   - javascripts/mathjax.js

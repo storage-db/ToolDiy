@@ -1140,17 +1140,17 @@ $$
 
 输入 `\小写希腊字母英文全称` 和 `\首字母大写希腊字母英文全称` 来分别输入小写和大写希腊字母。
 
-`\Alpha \Beta \Gamma \Delta \Epsilon \Zeta \Eta \Theta`
+`A B \Gamma \Delta E Z H \Theta`
 
-$\Alpha \Beta \Gamma \Delta \Epsilon \Zeta \Eta \Theta$
+$A B \Gamma \Delta E Z H \Theta$
 
-`\Iota \Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi`
+`I K \Lambda M N \Xi O \Pi`
 
-$\Iota \Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi$
+$I K \Lambda M N \Xi O \Pi$
 
-`\Rho \Sigma \Tau \Upsilon \Phi \Chi \Psi \Omega`
+`P \Sigma T \Upsilon \Phi X \Psi \Omega`
 
-$\Rho \Sigma \Tau \Upsilon \Phi \Chi \Psi \Omega$
+$P \Sigma T \Upsilon \Phi X \Psi \Omega$
 
 `\alpha \beta \gamma \delta \epsilon \zeta \eta \theta`
 
