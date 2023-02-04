@@ -33,6 +33,7 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
+      - run: pip install git+git://github.com/aleray/mdx_del_ins.git
       - run: mkdocs build --verbose --clean
           
 permissions:
