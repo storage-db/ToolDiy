@@ -24,7 +24,7 @@ theme:
         name: 亮色模式
   features:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-tabs
-    - navigation.tabs 
+    - navigation.tabs
     - navigation.tabs.sticky
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit#code-actions
     - content.action.edit
@@ -33,20 +33,21 @@ theme:
 # 导航
 ## 请依照下面的格式填写
 nav:
-  - 简介 : 
+  - 简介 :
     - 前言 : "index.md"
     - 规范 :
       - PR规范 : "specification/pr.md"
-      - Markdown规范 : 
+      - Markdown规范 :
         - 基础语法 : "specification/markdown/markdown.md"
         - LaTex语法 : "specification/markdown/latex.md"
         - 中英混排 : "specification/markdown/chinese_copywriting_guidelines.md"
     - 写作模板 : "specification/template.md"
-  - 软件 : 
+  - 软件 :
     - TeXmacs : "software/texmacs.md"
     - Mathpix : "software/mathpix.md"
     - nano : "software/nano.md"
     - Gdbdashboard : "software/gdbdashboard.md"
+    - Ranger : "software/ranger.md"
   - 插件 :
     - Android Studio : "plugins/android.md"
     - Browser : "plugins/browser.md"
@@ -56,7 +57,7 @@ nav:
     - Overleaf : "platform/overleaf.md"
 
 # 版权
-copyright: This website follows CC BY-SA 4.0 
+copyright: This website follows CC BY-SA 4.0
 
 # 插件
 plugins:
