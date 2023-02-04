@@ -35,6 +35,7 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
+      - run: pip install mdx_del_int
       - run: mkdocs gh-deploy --force
           
 permissions:
