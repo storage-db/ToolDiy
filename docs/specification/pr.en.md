@@ -1,8 +1,4 @@
-# Specification
-
-This website is built up by multiple contributors and its contents are based on Markdown. So for restrictive reasons, we have some specifications for writing.
-
-## Pull Request Message Specification[^1]
+# Pull Request Message Specification[^1]
 
 For Pull Request, please follow the following requirements:
 

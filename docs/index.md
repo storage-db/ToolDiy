@@ -21,7 +21,7 @@
 
 !!! Note
 
-      1. **所有上传到本网站的内容均应该符合[规范](https://cargo-youth.github.io/ToolDiy/specification/specification/)。**
+      1. **所有上传到本网站的内容均应该符合规范。**
       2. 如果你不熟悉PR，你可以参考[3分钟学会, 如何PR(Pull Request)代码到 Github](https://github.com/any86/Notes/issues/22)。
       3. 如果修改了原有目录结构请询问管理员。因为如果不修复 discussion 名可能会丢失原有评论。
 

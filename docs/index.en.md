@@ -21,7 +21,7 @@ If you wonder where to start, check the [writing template](https://cargo-youth.g
 
 !!! Note
 
-    1. **All content uploaded to this website should strictly conform to [Specification](https://cargo-youth.github.io/ToolDiy/specification/specification/).**
+    1. **All content uploaded to this website should strictly conform to Specification.**
     2. If you are not familiar with PR, you can refer to [3 minutes to learn, how to PR (Pull Request) code to Github](https://github.com/any86/Notes/issues/22)
     3. If you have modified the original directory structure, please ask the administrator. Because the original comment may be lost if the discussion name is not fixed
 
