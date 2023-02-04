@@ -34,9 +34,14 @@ theme:
 ## 请依照下面的格式填写
 nav:
   - 简介 : 
-    - 前言: "index.md"
-    - 规范: "specification/specification.md"
-    - 写作模板: "specification/template.md"
+    - 前言 : "index.md"
+    - 规范 : 
+      - PR规范 : "specification/pr.md"
+      - Markdown写作 : 
+        - 基础语法 : "specification/markdown/markdown.md"
+        - LaTex语法 : "specification/markdown/latex.md"
+        - 中英混排规范 : "specification/markdown/chinese_copywriting_guidelines.md"
+    - 写作模板 : "specification/template.md"
   - 软件 : 
     - TeXmacs : "software/texmacs.md"
     - Mathpix : "software/mathpix.md"
@@ -86,6 +91,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_javascript:
   - javascripts/mathjax.js
