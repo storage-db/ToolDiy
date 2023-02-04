@@ -25,3 +25,15 @@ https://www.zotero.org/download/connectors
 https://github.com/polywock/globalSpeed
 
 调节网页视频播放速度，使用简单。
+
+## Language Reactor
+
+为Youtube视频提供机翻双语字幕，并且支持导出。
+
+https://www.languagereactor.com/
+
+## Vimium
+
+Vimium 受到 Vim 编辑器的启发，让你能够抛弃鼠标，完全使用键盘完成浏览器的导航、页面跳转、页面搜索等操作。
+
+https://github.com/philc/vimium
