@@ -55,6 +55,13 @@ nav:
     - GitBucket : "platform/GitBucket.md"
     - Excalidraw : "platform/excalidraw.md"
     - Overleaf : "platform/overleaf.md"
+  - 一键部署 :
+    - Development board related:
+      - FPGA : "One-click access to tools/Development board related/fpga.md"
+    - System Design Competition Related:
+      - OS : "One-click access to tools/System Design Competition Related/os.md"
+      - CPU: "One-click access to tools/System Design Competition Related/cpu.md"
+      - COMPILER: "One-click access to tools/System Design Competition Related/compiler.md"
 
 # 版权
 copyright: This website follows CC BY-SA 4.0
@@ -87,6 +94,7 @@ plugins:
           软件 : Software
           插件 : Plugins
           平台 : Platform
+          一键部署: One-click access to tools
   - search:
       lang: ja
 
