@@ -1138,6 +1138,10 @@ $$
 
 ### 希腊字母
 
+!!! note 提示
+
+    对于部分希腊字母，例如 `\Alpha` 在预览时会生效但在网页上渲染会出现错误，因此这里的希腊字符写法参考 [Greek letters](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols) 进行编辑，更多详情请参考 [#39 LaTeX文档希腊字母大写显示有问题](https://github.com/cargo-youth/ToolDiy/issues/39) 。
+
 输入 `\小写希腊字母英文全称` 和 `\首字母大写希腊字母英文全称` 来分别输入小写和大写希腊字母。
 
 `A B \Gamma \Delta E Z H \Theta`
