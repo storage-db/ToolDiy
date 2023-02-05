@@ -55,6 +55,7 @@ nav:
     - GitBucket : "platform/GitBucket.md"
     - Excalidraw : "platform/excalidraw.md"
     - Overleaf : "platform/overleaf.md"
+    - FlyDav : "platform/flydav.md"
   - 一键部署 :
     - 开发板相关:
       - FPGA : "One-click access to tools/Development board related/fpga.md"
