@@ -33,6 +33,13 @@ Ranger 是有着 Vim 风格的快捷键的终端文件管理器。你可以使�
 ## 参考
 
 参考 
+
+- 官方文档
+
+    [ranger official wiki](https://github.com/ranger/ranger/wiki/Official-user-guide) 
+
+- 快捷键总结
+
 [ranger cheat sheet](https://gist.github.com/heroheman/aba73e47443340c35526755ef79647eb) 
 
 
