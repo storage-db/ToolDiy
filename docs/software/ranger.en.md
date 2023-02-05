@@ -17,7 +17,7 @@ Ranger is a terminal file manager with Vim-style shortcuts. You can use the keyb
     ```bash
     pip install ranger-fm
     ```
-+ 效果图 
++ ranger renderings 
 
 ![ranger interface demo](https://raw.githubusercontent.com/trace1729/blog_img/master/20230204233006.png)
 
