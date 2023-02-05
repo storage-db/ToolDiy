@@ -25,7 +25,7 @@ Ranger is a terminal file manager with Vim-style shortcuts. You can use the keyb
 
 ## Recommended reason
 1. No longer need to use the `cd` command to switch directories.
-2. simplify the operation of copying, pasting and renaming files (folders).
+2. Simplify the operation of copying, pasting and renaming files (folders).
 3. Ranger has a corresponding vim plugin, you can open ranger in vim after some configuration, which will boost your effiency.
 
 ## refer to
