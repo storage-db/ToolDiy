@@ -56,9 +56,9 @@ nav:
     - Excalidraw : "platform/excalidraw.md"
     - Overleaf : "platform/overleaf.md"
   - 一键部署 :
-    - Development board related:
+    - 开发板相关:
       - FPGA : "One-click access to tools/Development board related/fpga.md"
-    - System Design Competition Related:
+    - 系统设计比赛相关:
       - OS : "One-click access to tools/System Design Competition Related/os.md"
       - CPU: "One-click access to tools/System Design Competition Related/cpu.md"
       - COMPILER: "One-click access to tools/System Design Competition Related/compiler.md"
