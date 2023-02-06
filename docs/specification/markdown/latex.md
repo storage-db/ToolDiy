@@ -1,4 +1,4 @@
-# LaTeX[^1]
+# LaTeX
 
 ## 如何插入公式
 
@@ -1184,4 +1184,6 @@ $\varrho \varsigma \vartheta \varphi$
 
 $\aleph \beth \gimel \daleth$
 
-[^1]: 转载自 [LaTeX公式手册](https://www.cnblogs.com/1024th/p/11623258.html) ，已获得许可。
+!!! note LaTeX公式手册
+
+    该指南摘自 [LaTeX公式手册](https://www.cnblogs.com/1024th/p/11623258.html) ，你可以点击链接来了解更多内容。

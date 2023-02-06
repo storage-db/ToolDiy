@@ -1,4 +1,4 @@
-# 中英混排规范[^1]
+# 中英混排规范
 
 ## 空格
 
@@ -220,4 +220,6 @@ CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#t
 
 > “老师，‘有条不紊’的‘紊’是什么意思？”
 
-[^1]: 转载自 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md) 。
+!!! note 中英混排规范
+
+    本要求取自 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md) ，你可以点击链接来了解更多内容。

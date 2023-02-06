@@ -1,6 +1,6 @@
-# Pull Request Message Specification[^1]
+# Pull Request Message Specification
 
-For Pull Request, please follow the following requirements:
+For Pull Request, please follow the following requirements[^1]:
 
 1. The title should be clear about the purpose of this PR (what **work** is done, what **problem** is fixed).
 2. The content should briefly describe the changes. If you fix an issue, please add `fix #xxxx` in the content, where `xxxx` is the issue number.

@@ -1,6 +1,6 @@
-# Pull Request 信息格式规范[^1]
+# Pull Request 规范
 
-对于 Pull Request，请遵守以下几点要求：
+对于 Pull Request，请遵守以下几点要求[^1]：
 
 1. 标题请写明本次 PR 的目的（做了 **什么** 工作，修复了 **什么** 问题）。
 2. 内容请简要叙述修改的内容。如果修复了一个 issue 的问题，请在内容中添加 `fix #xxxx` 字段，其中 `xxxx` 代表 issue 的编号。

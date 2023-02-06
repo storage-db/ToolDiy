@@ -29,23 +29,6 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit#code-actions
     - content.action.edit
 
-
-# 导航
-# 目前导航已经采用自动生成的方式，所以你只需要在下面的插件
-# 部分的 nav_translations 填写对应的翻译即可，请不要在这
-# 里进行添加操作
-nav:
-  - 简介 :
-    - 前言 : "index.md"
-    - 规范 :
-      - PR规范 : "specification/pr.md"
-      - Markdown规范 :
-        - 基础语法 : "specification/markdown/markdown.md"
-        - LaTex语法 : "specification/markdown/latex.md"
-        - 中英混排 : "specification/markdown/chinese_copywriting_guidelines.md"
-    - 写作模板 : "specification/template.md"
-  - ...
-
 # 版权
 copyright: This website follows CC BY-SA 4.0
 
@@ -63,19 +46,17 @@ plugins:
           build: true
       nav_translations:
         zh:
-          How to Contribute : 如何贡献
           One click deployment : 一键部署
+          Markdown : Markdown 规范
           Platform : 平台
           Plugins : 插件
           Software : 软件
+          Preface : 前言
+          Specification : 规范
         en:
-          简介 : Introduction
           前言 : Preface
           规范 : Specification
           PR规范 : PR Specification
-          Markdown规范 : Markdown Specification
-          基础语法 : Markdown Syntax
-          LaTex语法 : LaTeX Syntax
           中英混排 : Chinese With English
           写作模板 : Writing Template
           软件 : Software
@@ -84,7 +65,8 @@ plugins:
           一键部署: One-Click Deployment
   - search:
       lang: ja
-  - awesome-pages
+  - awesome-pages:
+      strict: false
 
 # LaTeX支持
 markdown_extensions:
