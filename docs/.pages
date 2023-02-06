@@ -1,0 +1,3 @@
+# 设置当文件夹下面只有一个文档时折叠改文档
+# https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#collapse-single-nested-pages
+collapse_single_pages: true

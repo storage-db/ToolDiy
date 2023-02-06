@@ -31,7 +31,9 @@ theme:
 
 
 # 导航
-## 请依照下面的格式填写
+# 目前导航已经采用自动生成的方式，所以你只需要在下面的插件
+# 部分的 nav_translations 填写对应的翻译即可，请不要在这
+# 里进行添加操作
 nav:
   - 简介 :
     - 前言 : "index.md"
@@ -42,26 +44,7 @@ nav:
         - LaTex语法 : "specification/markdown/latex.md"
         - 中英混排 : "specification/markdown/chinese_copywriting_guidelines.md"
     - 写作模板 : "specification/template.md"
-  - 软件 :
-    - TeXmacs : "software/texmacs.md"
-    - Mathpix : "software/mathpix.md"
-    - nano : "software/nano.md"
-    - Gdbdashboard : "software/gdbdashboard.md"
-    - Ranger : "software/ranger.md"
-  - 插件 :
-    - Android Studio : "plugins/android.md"
-    - Browser : "plugins/browser.md"
-  - 平台 :
-    - GitBucket : "platform/GitBucket.md"
-    - Excalidraw : "platform/excalidraw.md"
-    - Overleaf : "platform/overleaf.md"
-  - 一键部署 :
-    - 开发板相关:
-      - FPGA : "One-click access to tools/Development board related/fpga.md"
-    - 系统设计比赛相关:
-      - OS : "One-click access to tools/System Design Competition Related/os.md"
-      - CPU: "One-click access to tools/System Design Competition Related/cpu.md"
-      - COMPILER: "One-click access to tools/System Design Competition Related/compiler.md"
+  - ...
 
 # 版权
 copyright: This website follows CC BY-SA 4.0
@@ -81,6 +64,10 @@ plugins:
       nav_translations:
         zh:
           How to Contribute : 如何贡献
+          One click deployment : 一键部署
+          Platform : 平台
+          Plugins : 插件
+          Software : 软件
         en:
           简介 : Introduction
           前言 : Preface
@@ -94,9 +81,10 @@ plugins:
           软件 : Software
           插件 : Plugins
           平台 : Platform
-          一键部署: One-click access to tools
+          一键部署: One-Click Deployment
   - search:
       lang: ja
+  - awesome-pages
 
 # LaTeX支持
 markdown_extensions:
