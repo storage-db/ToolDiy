@@ -80,6 +80,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
+  - pymdownx.highlight:
+      use_pygments: true
   - footnotes
   - def_list
   - pymdownx.tasklist:
