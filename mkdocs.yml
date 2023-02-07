@@ -53,6 +53,7 @@ plugins:
           Software : 软件
           Preface : 前言
           Specification : 规范
+          Frame : 开源框架
         en:
           前言 : Preface
           规范 : Specification
@@ -62,7 +63,8 @@ plugins:
           软件 : Software
           插件 : Plugins
           平台 : Platform
-          一键部署: One-Click Deployment
+          一键部署 : One-Click Deployment
+          开源框架 : Opensource Frame 
   - search:
       lang: ja
   - awesome-pages:
