@@ -10,9 +10,9 @@ Using python to configure the gdb debugging interface, you can write your own co
 
 + get it
   
-    ```sh
-    wget -P ~ https://git.io/.gdbinit # If the network speed is slow, you can directly create a new file with the same name. gdbinit and then copy and paste it
-    ```
+  ```sh
+  wget -P ~ https://git.io/.gdbinit # If the network speed is slow, you can directly create a new file with the same name. gdbinit and then copy and paste it
+  ```
 
 + renderings ![gdbrenderings](https://raw.githubusercontent.com/wiki/cyrus-and/gdb-dashboard/Screenshot.png)
 
@@ -23,3 +23,7 @@ It is true that the IDE integrates a lot of debugging tools at present, but GDB 
 ## Run and debug basic commands
 
 Reference [common commands for gdb debugging](https://www.jianshu.com/p/5663e4a55202)
+
+## Notice
+
+When using this plugin, you need to check whether the gdb currently in use supports python scripts. When `Scripting in the "Python" language is not supported in this copy of GDB.` appears, it indicates that the gdb does not support python scripts and cannot be used this plugin. In addition, you also need to pay attention to whether the versions of gdb and python match, see [issue](https://github.com/cyrus-and/gdb-dashboard/issues/147)
