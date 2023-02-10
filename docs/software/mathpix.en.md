@@ -6,11 +6,11 @@ Mathpix is a tex format formula generation software. Its main function is to ide
 
 Features:
 
-- Support the recognition of handwritten formulas and automatically generate tex codes
-- Support the operation of the digital board, you can write formulas, recognize and generate tex through an external digital board
-- Support table recognition, although not as accurate as formulas, but in most cases the effect is ok
-- Interactive editing interface, when the orc result deviates, you can directly modify it
+- Support the recognition of handwritten formulas and automatically generate tex codes.
+- Support the operation of the digital board, you can write formulas, recognize and generate tex through an external digital board.
+- Support table recognition, although not as accurate as formulas, but in most cases the effect is ok.
+- Interactive editing interface, when the orc result deviates, you can directly modify it.
 
 Shortcoming:
 
-- There is a limit on the number of times of use, but it can be solved by changing the mailbox. According to my experience, I don’t use that much at all. The normal model is enough, and it’s not worthwhile to pay to upgrade the pro version
+- There is a limit on the number of times of use, but it can be solved by changing the mailbox. According to my experience, I don’t use that much at all. The normal model is enough, and it’s not worthwhile to pay to upgrade the pro version.

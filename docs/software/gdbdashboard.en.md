@@ -26,4 +26,4 @@ Reference [common commands for gdb debugging](https://www.jianshu.com/p/5663e4a5
 
 ## Notice
 
-When using this plugin, you need to check whether the gdb currently in use supports python scripts. When `Scripting in the "Python" language is not supported in this copy of GDB.` appears, it indicates that the gdb does not support python scripts and cannot be used this plugin. In addition, you also need to pay attention to whether the versions of gdb and python match, see [issue](https://github.com/cyrus-and/gdb-dashboard/issues/147)
+When using this plugin, you need to check whether the gdb currently in use supports python scripts. When `Scripting in the "Python" language is not supported in this copy of GDB.` appears, it indicates that the gdb does not support python scripts and cannot be used this plugin. In addition, you also need to pay attention to whether the versions of gdb and python match, see [issue](https://github.com/cyrus-and/gdb-dashboard/issues/147).
