@@ -13,11 +13,11 @@ Now, let's use it together!
 
 ## Contribute
 
-The original intention of this project is to provide a warehouse and wiki for maintaining a tool description. It is a project that lowers the threshold of use and is convenient for everyone. Our principle is not limited to any specific discipline and field. We can share all the tools we think are useful (Pay attention to the introductory introduction, which is in line with the original intention of the project). It can be shared under the premise of respecting the labor of tool producers. Therefore, we do not allow everyone to share pirated and cracked tools. We welcome all kinds of pr on the premise of standardization. If you have any doubts other than the appeal, you can file an issue or contact the warehouse management. When it comes to paid content tools, we encourage sharing and hope that everyone will do a good job of disclosing their information and marking their prices. This project will not advertise any tools, and there will be no special advertisement behaviors such as location are arranged according to the time of submission. We also welcome various PR requests to improve the reading experience of this project (including but not limited to adding a line break to improve the reading experience, adding a project logo, Chinese and English proofreading, etc.) _(:з)∠)_ This project is still in its infancy, and it is very much in need of improvement and error correction from everyone.
+The original intention of this project is to provide a warehouse and wiki for maintaining a tool description. It is a project that lowers the threshold of use and is convenient for everyone. Our principle is not limited to any specific discipline and field. We can share all the tools we think are useful (Pay attention to the introductory introduction, which is in line with the original intention of the project). It can be shared under the premise of respecting the labor of tool producers. Therefore, we do not allow everyone to share pirated and cracked tools. We welcome all kinds of PR on the premise of standardization. If you have any doubts other than the appeal, you can file an issue or contact the warehouse management. When it comes to paid content tools, we encourage sharing and hope that everyone will do a good job of disclosing their information and marking their prices. This project will not advertise any tools, and there will be no special advertisement behaviors such as location are arranged according to the time of submission. We also welcome various PR requests to improve the reading experience of this project (including but not limited to adding a line break to improve the reading experience, adding a project logo, Chinese and English proofreading, etc.) _(:з)∠)_ This project is still in its infancy, and it is very much in need of improvement and error correction from everyone.
 
 If you have already written articles that you would like to add here, you can do so in the following ways:
 
-1. Fork this repository, create an Markdown document in the docs folder under the corresponding category, add an item in the `nav` column of mkdocs.yml, and finally submit a PR to merge.
+1. Fork this repository, create an Markdown document in the docs folder under the corresponding category and submit a PR to merge.
 2. Contact [SakurajimaMaii](https://github.com/SakurajimaMaii) and send the **Chinese** and **English** versions of the document to his email <a href="mailto:guihy2019@gmail.com ">Email</a>.
 
 If you wonder where to start, check the [writing template](https://cargo-youth.github.io/ToolDiy/specification/template/) is a good idea.
@@ -26,7 +26,6 @@ If you wonder where to start, check the [writing template](https://cargo-youth.g
 
     1. **All content uploaded to this website should strictly conform to Specification.**
     2. If you are not familiar with PR, you can refer to [3 minutes to learn, how to PR (Pull Request) code to Github](https://github.com/any86/Notes/issues/22)
-    3. If you have modified the original directory structure, please ask the administrator. Because the original comment may be lost if the discussion name is not fixed
 
 ## Contact us
 
