@@ -6,7 +6,7 @@
 <https://www.tabnine.com/install/>
 这里可以选择自己喜欢的编译器这个页面选择，我是vscode用户直接插件搜索就行
 
-## 介绍(本段文字有ChatGPT生成)
+## 介绍(本段文字由ChatGPT生成)
 TabNine 是一个基于机器学习的代码自动补全工具，它可以在多种编辑器和 IDE 中使用，包括但不限于 VS Code、Sublime Text、PyCharm、Vim、Emacs 等等。与传统的代码自动补全工具不同，TabNine 不仅可以根据已有的代码段和语法规则进行补全，而且还可以通过学习大量的代码库和语言语法，自动生成全新的代码，大大提高编码效率和准确性。
 
 TabNine 的优点包括：
