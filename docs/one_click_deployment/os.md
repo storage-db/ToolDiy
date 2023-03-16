@@ -42,7 +42,7 @@ rustup component add rust-src
 # centos 依赖安装
 sudo yum install autoconf automake libmpc-devel mpfr-devel gmp-devel gawk bison flex \
                 texinfo patchutils gcc gcc-c++ zlib-devel expat-devel git
-# gcc版本过低导致的qemu编译失败(也可以之间官网更高版本安装)
+# gcc版本过低导致的qemu编译失败(也可以直接官网更高版本安装)
 yum install centos-release-scl
 scl enable devtoolset-8 bash
 # 查看gcc版本
