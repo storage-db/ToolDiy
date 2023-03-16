@@ -25,7 +25,7 @@ docker pull jklincn/c-os
 After the image is successfully pulled, execute
 
 ```
-docker run -d --privileged -p 58888:8080 os
+docker run -d --privileged -p 58888:8080 jklincn/c-os
 ```
 
 Now, you can open [http://localhost:58888](http://localhost:58888) in the browser. Development environment is ready.
