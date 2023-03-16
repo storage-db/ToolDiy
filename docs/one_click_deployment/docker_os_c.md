@@ -26,13 +26,7 @@ docker pull jklincn/c-os
 镜像成功拉取后，执行
 
 ```
-docker run -d --privileged -p 58888:8080 os
-```
-
-如果容器运行成功，会返回一串 Hash 值，例如
-
-```
-de22efd95cf6861943c3a2715dfb950ff8d4b71fb170d1c87cdae01c8c04be1c
+docker run -d --privileged -p 58888:8080 jklincn/c-os
 ```
 
 这时使用浏览器打开 [http://localhost:58888](http://localhost:58888) 即可启动开发环境。

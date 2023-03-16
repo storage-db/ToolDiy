@@ -26,13 +26,7 @@ docker pull jklincn/rust-os
 After the image is successfully pulled, execute
 
 ```
-docker run -d --privileged -p 58888:8080 os
-```
-
-If the container runs successfully, it will return a string of hash values, such as
-
-```
-de22efd95cf6861943c3a2715dfb950ff8d4b71fb170d1c87cdae01c8c04be1c
+docker run -d --privileged -p 58888:8080 jklincn/rust-os
 ```
 
 Now, you can open [http://localhost:58888](http://localhost:58888) in the browser. Development environment is ready.
