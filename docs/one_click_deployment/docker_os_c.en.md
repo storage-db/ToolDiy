@@ -1,4 +1,4 @@
-# Using Docker to build an operating system based C language development environment under Windows
+# C-based operating system development environment using Docker
 
 ## Development environment configuration
 
@@ -9,7 +9,8 @@
 - QEMU emulator 7.0.0
 - code-server 4.10.1
 - code-server extensions
-  - C/C++ 1.14.4
+
+    - C/C++ 1.14.4
 
 ## Quick Start
 
@@ -19,7 +20,7 @@ See [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/
 
 ### Build Image
 
-Create a folder in any path, create a new `dockfile` file in it, and write the following contents
+Create a folder in any path, create a new `dockerfile` file in it, and write the following contents
 
 ```dockerfile
 FROM ubuntu:22.04
@@ -38,14 +39,17 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list &&
 
 # Install QEMU
 ARG QEMU_VERSION=7.0.0
-RUN wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz && \
+RUN cd /tmp && \
+    wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz && \
     tar xf qemu-${QEMU_VERSION}.tar.xz && \
     cd qemu-${QEMU_VERSION} && \
     ./configure --target-list=riscv64-softmmu,riscv64-linux-user && \
     make -j && \
-    make install
+    make install && \
+    cd .. && \
+    rm -rf qemu-${QEMU_VERSION} qemu-${QEMU_VERSION}.tar.xz
 
-# Install code-server and cpptools extensions
+# Install code-server and extensions
 ARG CODE_VERSION=4.10.1
 RUN cd /usr/local/ && \
     wget https://github.com/coder/code-server/releases/download/v${CODE_VERSION}/code-server-${CODE_VERSION}-linux-amd64.tar.gz && \
@@ -55,6 +59,9 @@ RUN cd /usr/local/ && \
     wget https://github.com/microsoft/vscode-cpptools/releases/download/v1.14.4/cpptools-linux.vsix && \
     code --install-extension cpptools-linux.vsix && \
     rm cpptools-linux.vsix && \
+    wget https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-zh-hans/1.75.0/file/MS-CEINTL.vscode-language-pack-zh-hans-1.75.0.vsix && \
+    code --install-extension MS-CEINTL.vscode-language-pack-zh-hans-1.75.0.vsix && \
+    rm MS-CEINTL.vscode-language-pack-zh-hans-1.75.0.vsix
 
 EXPOSE 8080/tcp
 CMD ["code", "--auth", "none", "--bind-addr", "0.0.0.0:8080"]
@@ -83,7 +90,7 @@ Open CMD or PowerShell at any path, execute
 docker run -d --privileged -p 58888:8080 os
 ```
 
-Open http://localhost:58888 in browser to start development environment
+Open [http://localhost:58888](http://localhost:58888) in browser to start development environment
 
 PS: The service port and host mapping port can be freely changed
 

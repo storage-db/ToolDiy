@@ -1,6 +1,6 @@
-# Windows 下使用 Docker 搭建操作系统 C 语言 Web 开发环境
+# Docker 搭建 C 语言操作系统开发环境
 
-## 开发环境配置
+## 预设开发环境简述
 
 - ubuntu 22.04.2 LTS
 - gcc 11.3.0
@@ -9,8 +9,9 @@
 - QEMU emulator 7.0.0
 - code-server 4.10.1
 - code-server 扩展
-   * C/C++ 1.14.4
-   * Chinese (Simplified) Language Pack 1.75.0
+
+     - C/C++ 1.14.4
+     - Chinese (Simplified) Language Pack 1.75.0
 
 ## 快速开始
 
@@ -20,7 +21,7 @@
 
 ### 构建镜像
 
-在任意位置创建一个文件夹，在其中新建 `dockfile` 文件，写入以下内容
+在任意位置创建一个文件夹，在其中新建文件，命名为 `dockerfile`，写入以下内容
 
 ```dockerfile
 FROM ubuntu:22.04
@@ -39,12 +40,15 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list &&
 
 # 安装 QEMU
 ARG QEMU_VERSION=7.0.0
-RUN wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz && \
+RUN cd /tmp && \
+    wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz && \
     tar xf qemu-${QEMU_VERSION}.tar.xz && \
     cd qemu-${QEMU_VERSION} && \
     ./configure --target-list=riscv64-softmmu,riscv64-linux-user && \
     make -j && \
-    make install
+    make install && \
+    cd .. && \
+    rm -rf qemu-${QEMU_VERSION} qemu-${QEMU_VERSION}.tar.xz
 
 # 安装 code-server 和 cpptools 插件以及中文语言包
 ARG CODE_VERSION=4.10.1
@@ -87,7 +91,7 @@ docker build -t os "."
 docker run -d --privileged -p 58888:8080 os
 ```
 
-在使用浏览器打开 http://localhost:58888 即可启动开发环境。
+在使用浏览器打开 [http://localhost:58888](http://localhost:58888) 即可启动开发环境。
 
 服务端口和主机映射端口均可自由更换。
 
