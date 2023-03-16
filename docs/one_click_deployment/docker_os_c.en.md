@@ -1,6 +1,6 @@
 # C-based operating system development environment using Docker
 
-## Development environment configuration
+## Overview of the development environment
 
 - ubuntu 22.04.2 LTS
 - gcc 11.3.0
@@ -14,19 +14,40 @@
 
 ## Quick Start
 
-### Install Docker Desktop
+Install Docker Desktop, see [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)
 
-See [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)
+Run Docker Desktop，and then open CMD or PowerShell，execute
 
-### Build Image
+```
+docker pull jklincn/c-os
+```
 
-Create a folder in any path, create a new `dockerfile` file in it, and write the following contents
+After the image is successfully pulled, execute
+
+```
+docker run -d --privileged -p 58888:8080 os
+```
+
+If the container runs successfully, it will return a string of hash values, such as
+
+```
+de22efd95cf6861943c3a2715dfb950ff8d4b71fb170d1c87cdae01c8c04be1c
+```
+
+Now, you can open [http://localhost:58888](http://localhost:58888) in the browser. Development environment is ready.
+
+You can control the containers by the Docker Desktop graphical interface.
+
+>The host mapping port 58888 can be changed at will. Service port 8080 can be changed by modifying Dockerfile.
+
+## Dockerfile
+
+Here is the Dockerfile, for others who need demand for reference and modification.
 
 ```dockerfile
 FROM ubuntu:22.04
 SHELL ["/bin/bash", "-c"]
 
-# Install necessary dependencies and development tools
 RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
     apt-get update && apt-get install -y \
     gcc-riscv64-unknown-elf gdb-multiarch dosfstools cmake \
@@ -37,7 +58,6 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list &&
     ninja-build pkg-config libglib2.0-dev libpixman-1-dev libsdl2-dev \ 
     && rm -rf /var/lib/apt/lists/*
 
-# Install QEMU
 ARG QEMU_VERSION=7.0.0
 RUN cd /tmp && \
     wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz && \
@@ -49,7 +69,6 @@ RUN cd /tmp && \
     cd .. && \
     rm -rf qemu-${QEMU_VERSION} qemu-${QEMU_VERSION}.tar.xz
 
-# Install code-server and extensions
 ARG CODE_VERSION=4.10.1
 RUN cd /usr/local/ && \
     wget https://github.com/coder/code-server/releases/download/v${CODE_VERSION}/code-server-${CODE_VERSION}-linux-amd64.tar.gz && \
@@ -66,43 +85,3 @@ RUN cd /usr/local/ && \
 EXPOSE 8080/tcp
 CMD ["code", "--auth", "none", "--bind-addr", "0.0.0.0:8080"]
 ```
-
-Open CMD or PowerShell in the folder path and execute
-
-```
-docker build -t os "."
-```
-
-If the final output the following information shows that image builds successfully
-
-```
-=> exporting to image
-=> => exporting layers
-=> => writing image sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-=> => naming to docker.io/library/os
-```
-
-### Run Development Environment
-
-Open CMD or PowerShell at any path, execute
-
-```
-docker run -d --privileged -p 58888:8080 os
-```
-
-Open [http://localhost:58888](http://localhost:58888) in browser to start development environment
-
-PS: The service port and host mapping port can be freely changed
-
-## Others
-
-### Image build failed or slowly
-
-Image build generally takes several minutes, mainly depending on the network speed
-
-You can pull the image directly
-
-```
-docker pull jklincn/c-os
-```
-

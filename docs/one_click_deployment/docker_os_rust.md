@@ -9,20 +9,51 @@
 - rustup latest
 - cargo nightly-latest
 - code-server 4.10.1
-- code-server 扩展
+- code-server extensions
 
      - rust-analyzer 0.3.1435
      - Chinese (Simplified) Language Pack 1.75.0
 
 ## 快速开始
 
-### 安装 Docker Desktop
+安装 Docker Desktop，参见 [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)。
 
-参见 [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)
+运行 Docker Desktop，再打开 CMD 或者 PowerShell，执行
 
-### 构建镜像
+```
+docker pull jklincn/rust-os
+```
 
-在任意位置创建一个文件夹，在其中新建文件，命名为 `dockerfile`，写入以下内容
+镜像成功拉取后，执行
+
+```
+docker run -d --privileged -p 58888:8080 os
+```
+
+如果容器运行成功，会返回一串 Hash 值，例如
+
+```
+de22efd95cf6861943c3a2715dfb950ff8d4b71fb170d1c87cdae01c8c04be1c
+```
+
+这时使用浏览器打开 [http://localhost:58888](http://localhost:58888) 即可启动开发环境。
+
+后续可以在 Docker Desktop 界面的 Containers 中控制已创建容器的暂停与开启。
+
+>1. 主机映射端口 58888 可随意更换。服务端口 8080 可以通过修改 Dockerfile 更换
+
+>2. 如果镜像拉取缓慢，可以点击 Docker Desktop 界面右上角齿轮打开设置，在 Docker Engine 配置文件中添加国内源，再点击 `Apply & restart` 重启 Docker，再次尝试拉取。
+>
+       ```
+       "registry-mirrors": [
+           "http://hub-mirror.c.163.com",
+           "https://docker.mirrors.ustc.edu.cn"
+       ]
+       ```
+
+## Dockerfile
+
+此处给出镜像的构建脚本，供有需求的同学参考与修改
 
 ```dockerfile
 FROM ubuntu:22.04
@@ -51,7 +82,7 @@ RUN cd /tmp && \
     cd .. && \
     rm -rf qemu-${QEMU_VERSION} qemu-${QEMU_VERSION}.tar.xz
 
-# 安装 code-server 和 rust-analyzer 扩展以及中文语言包
+# 安装 code-server 和扩展
 ARG CODE_VERSION=4.10.1
 RUN cd /usr/local/ && \
     wget https://github.com/coder/code-server/releases/download/v${CODE_VERSION}/code-server-${CODE_VERSION}-linux-amd64.tar.gz && \
@@ -88,43 +119,3 @@ RUN mkdir .cargo && \
 EXPOSE 8080/tcp
 CMD ["code", "--auth", "none", "--bind-addr", "0.0.0.0:8080"]
 ```
-
-在该文件夹路径下打开 CMD 或者 PowerShell，执行
-
-```
-docker build -t os "."
-```
-
-如果最终输出如下信息，则表明镜像构建成功
-
-```
-=> exporting to image
-=> => exporting layers
-=> => writing image sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-=> => naming to docker.io/library/os
-```
-
-### 运行开发环境
-
-在任意位置打开 CMD 或者 PowerShell，执行
-
-```
-docker run -d --privileged -p 58888:8080 os
-```
-
-在使用浏览器打开 [http://localhost:58888](http://localhost:58888) 即可启动开发环境。
-
-服务端口和主机映射端口均可自由更换。
-
-## 其他说明
-
-### 镜像构建失败或者很慢
-
-镜像构建一般需要几分钟的时间，主要取决于网络速度。
-
-如果被经典的网络连接问题所束缚，也可以选择直接拉取已构建好的镜像（换国内源可以加快速度）
-
-```
-docker pull jklincn/rust-os
-```
-
