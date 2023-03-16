@@ -9,8 +9,8 @@
 - QEMU emulator 7.0.0
 - code-server 4.10.1
 - code-server 扩展
-  * C/C++ 1.14.4
-  * Chinese (Simplified) Language Pack 1.75.0
+   * C/C++ 1.14.4
+   * Chinese (Simplified) Language Pack 1.75.0
 
 ## 快速开始
 
