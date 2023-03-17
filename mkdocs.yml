@@ -26,8 +26,13 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-tabs
     - navigation.tabs
     - navigation.tabs.sticky
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=footer
+    - navigation.footer
+    - navigation.top
+    - navigation.sections
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit#code-actions
     - content.action.edit
+    - content.tabs.link
 
 # 版权
 copyright: This website follows CC BY-SA 4.0
@@ -88,6 +93,10 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
 
 extra_javascript:
   - javascripts/mathjax.js
