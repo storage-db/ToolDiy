@@ -17,9 +17,9 @@ example.g4
 grammar example;
 // for non-terminal, star with lower-case letter
 
-// '*' 代表该产生式出现0次或以上
-// '+' 代表至少出现一次
-// 下例将会被解析成vector<number>
+//'*' represents 0 or more occurrences of the production
+//'+' represents at least one occurrence
+//The following example will be parsed as vector<number>
 addExp
     : number ('+' number)*
     ;
