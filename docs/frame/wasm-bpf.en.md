@@ -121,7 +121,7 @@ The wasm-bpf runtime require two parts: `the host side`(Outside the Wasm runtime
 
 For details compile process, please refer to the [examples/bootstrap/README.md](https://github.com/eunomia-bpf/wasm-bpf/tree/main/examples/bootstrap/README.md).  The figure below shows the overall interaction between the eBPF and Wasm runtimes:
 
-![wasi-bpf](https://github.com/eunomia-bpf/wasm-bpf/tree/main/docs/wasm-bpf-no-bcc.png)
+![wasi-bpf](img/wasm-bpf-no-bcc.png)
 
 A Wasm module could load and control multiple eBPF programs at the same time, and can call another Wasm module written in other languages to process the data or control with [the component model](https://github.com/WebAssembly/component-model).
 

@@ -85,7 +85,7 @@ wasm-bpf 运行时需要两部分：主机端(在 Wasm 运行时之外)和 Wasm 
 
 有关详细的编译过程，请参阅 [examples/bootstrap/README.md](https://github.com/eunomia-bpf/wasm-bpf/tree/main/examples/bootstrap/README.md)。下图显示了 eBPF 和 Wasm 运行时之间的整体交互过程：
 
-![wasi-bpf](https://github.com/eunomia-bpf/wasm-bpf/tree/main/docs/wasm-bpf-no-bcc.png)
+![wasi-bpf](img/wasm-bpf-no-bcc.png)
 
 Wasm 模块可以同时加载和控制多个 eBPF 程序， 并且能够调用或者控制（通过[组件模型](https://github.com/WebAssembly/component-model)）其他语言编写的 Wasm 模块来处理数据。
 
