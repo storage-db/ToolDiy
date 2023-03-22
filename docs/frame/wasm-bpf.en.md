@@ -24,7 +24,7 @@
 
 📚 **[Check out our more documentations](https://docs.eunomia.dev/)**
 
-## ⌨️ Introduction
+## Introduction
 
 `WebAssembly` (Wasm) is a portable binary format for executable code. The code is executed at a nearly-native speed in a memory-safe (for host) sandbox, with clearly defined resource constraints, and APIs for communicating with the embedding host environment (eg. proxy).The `wasm-bpf` project combines Wasm and eBPF technologies to enhance the performance and programmability of eBPF applications.
 
@@ -142,8 +142,8 @@ The runtime can be built as a library or a standalone executable. see [docs/buil
 
 ## 🔗 Links
 
-- eunomia-bpf project: simplify and enhance eBPF with CO-RE and WebAssembly https://github.com/eunomia-bpf/eunomia-bpf
-- documents and blogs: https://docs.eunomia.dev
-- CO-RE (Compile Once – Run Everywhere): https://facebookmicrosites.github.io/bpf/blog/2020/02/19/bpf-portability-and-co-re.html
-- WAMR (WebAssembly Micro Runtime): https://github.com/bytecodealliance/wasm-micro-runtime
-- libbpf: https://github.com/libbpf/libbpf
+- eunomia-bpf project: simplify and enhance eBPF with CO-RE and WebAssembly <https://github.com/eunomia-bpf/eunomia-bpf>
+- documents and blogs: <https://docs.eunomia.dev>
+- CO-RE (Compile Once – Run Everywhere): <https://facebookmicrosites.github.io/bpf/blog/2020/02/19/bpf-portability-and-co-re.html>
+- WAMR (WebAssembly Micro Runtime): <https://github.com/bytecodealliance/wasm-micro-runtime>
+- libbpf: <https://github.com/libbpf/libbpf>
