@@ -39,6 +39,8 @@ copyright: This website follows CC BY-SA 4.0
 
 # 插件
 plugins:
+  - awesome-pages:
+      strict: false
   - i18n:
       default_language: zh
       material_alternate: true
@@ -72,8 +74,6 @@ plugins:
           开源框架 : Opensource Frame 
   - search:
       lang: ja
-  - awesome-pages:
-      strict: false
 
 # LaTeX支持
 markdown_extensions:
