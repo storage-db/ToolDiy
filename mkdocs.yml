@@ -61,6 +61,7 @@ plugins:
           Preface : 前言
           Specification : 规范
           Frame : 开源框架
+          Firmware : 固件 
         en:
           前言 : Preface
           规范 : Specification
