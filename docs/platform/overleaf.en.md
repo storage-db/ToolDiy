@@ -2,7 +2,9 @@
 
 Official website: <https://www.overleaf.com>
 
-Overleaf is an online tex rendering website. The configuration of the tex environment is cumbersome and not friendly enough for novices, but overleaf is a good alternative. You only need to choose a good-looking template, and it will be very convenient to write homework or small papers within 10 pages.
+Overleaf is an online tex rendering website. The configuration of the tex environment is cumbersome and not friendly enough for novices (especially in Windows), but overleaf is a good alternative. You just need to choose a nice template, and it will be very convenient to write assignments or small papers of less than 10 pages. Overleaf also provides the basic teamwork function, which can be edited by multiple people through links or invitations. The free version of Overleaf has a maximum compilation time and a limited set of features. For more complex projects, consider paying for more features.
+
+$\LaTeX$ is a wysiwyg (what you see is what you get) typesetting system in which users enter specific code, save it in a file with the suffix.tex, and compile it to get the desired pdf file. $\LaTeX$ Excellent large document typesetting ability and mathematical formula rendering ability is one of the reasons why it can be widely used. To learn more about can refer to the CTAN introduce [lshort](https://www.ctan.org/pkg/lshort).
 
 Features:
 
