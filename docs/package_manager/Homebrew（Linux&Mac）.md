@@ -1,3 +1,7 @@
+# Homebrew（Linux&Mac）
+
+
+
 Linuxbrew（Mac OS 的 Homebrew 分支，支持mac和linux，用法完全相同）
 
 详情页： https://ostechnix.com/linuxbrew-common-package-manager-linux-mac-os-x/  
