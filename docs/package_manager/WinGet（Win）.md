@@ -1,4 +1,4 @@
-# WinGet
+# WinGet（Win）
 
 WinGet （ Windows 程序包管理器： Windows Package Manager ）是微软为 win10 开发的一款开源的软件包管理器，于 2020 年 5 月的 Microsoft Build 开发者大会上首宣。
 

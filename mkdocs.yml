@@ -63,6 +63,7 @@ plugins:
           Frame : 开源框架
           Firmware : 固件
           Large language model : 大语言模型
+          Package manager: 包管理工具
         en:
           前言 : Preface
           规范 : Specification
@@ -75,6 +76,7 @@ plugins:
           一键部署 : One-Click Deployment
           开源框架 : Opensource Frame 
           大语言模型 : Large Language Model
+          包管理工具 : Package manager
   - search:
       lang: ja
 

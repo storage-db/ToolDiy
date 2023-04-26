@@ -1,4 +1,4 @@
-# pacman
+# pacman（Arch）包管理工具
 
 Manjaro 换源
 

@@ -1,4 +1,4 @@
-# scoop
+# Scoop（Win）
 
 > scoop必要组件： 7zip git innounp lessmsi dark sudo aria2
 > scoop我的CLI软件：ffmpeg 、pandoc
