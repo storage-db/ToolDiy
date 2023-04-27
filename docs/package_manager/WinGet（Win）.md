@@ -40,6 +40,4 @@ winget source list 查看软件源列表，发现除了 winget 源之外，MSSto
 
 winget 可以卸载 winget list 显示出的所有软件。包括电脑上的大多数软件，如 Windows 系统自带的、手动安装的、 Chocolatey 安装的部分等。唯一不足的是，卸载时会被弹出的卸载窗口打断，降低了自动化的一致性。
 
-winget 卸载弹窗
-
 winget 可以卸载多种类型的软件程序
