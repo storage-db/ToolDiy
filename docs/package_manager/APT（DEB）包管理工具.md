@@ -2,8 +2,15 @@
 
 ```bash
 apt list --installed
-apt list --upgradeable
-apt list --all-versions
+apt list --installed-pattern <pattern>：只显示匹配给定模式的已安装软件包。
+apt list --all-versions <package-name>：列出指定软件包的所有版本。
+apt list --all-sources：显示所有可用的源中的软件包。
+apt list --upgradable | grep <search-term>：列出包含搜索词的可更新软件包。
+apt list --list-cleanup：列出可以清理的过时软件包。
+apt list --ignore-hold：忽略被标记为“hold”的软件包。
+apt list --contrib和--non-free：仅显示包含在“contrib”或“non-free”存储库中的软件包。
+apt list --names-only：仅显示软件包名称，不包括版本号和描述信息。
+apt list --verbose：显示更详细的输出信息。
 
 apt edit-sources
 
